@@ -19,7 +19,7 @@ def f3():
     import cx_Oracle
     con = None
     cursor = None
-
+#
     try:
         con = cx_Oracle.connect('system/abc123')
         print("Connected")
